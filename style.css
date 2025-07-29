@@ -21,18 +21,20 @@
   font-style: normal;
 }
 
-/* background */
 
+/* Background Color */
+body{
+  background-color: #f5f8ff;
+}
+
+/* header */
+/* background */
 .header{
   background-image: url("./B12A01-landing-launchpad/Assets/Hero-bg.png");
   width: 100%;
   height: 698px;
 }
 
-/* color */
-
-
-/* header */
 .logo{
     font-size: 34px;
     font-weight: 900;
@@ -67,10 +69,110 @@ nav{
   margin-bottom:37px;
 }
 
+/* Action panel */
+
+.action{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 220px;
+  width: 1140px;
+  height: 328px;
+  margin: 116px auto;
+}
+.action-text{
+  height: 203px;
+  width: 517px;
+  display: flex;
+  flex-direction: column;
+}
+
+.action-heading{
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+  width: 517px;
+  height: 49px;
+  margin-top: 0px;
+  margin-bottom: 23px;
+}
+
+.action-description{
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(37, 36, 50, 0.5);
+  width: 517px;
+  height: 60px;
+  margin-top: 0px;
+  margin-bottom: 23px;
+}
+.action-btn{
+  width: 229px;
+}
+
+/* action image */
+
+.img-01{
+  border-radius: 48px;
+  height: 328px;
+  width: 403px;
+}
+
+/* Productive section */
+.productive-user{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 1140px;
+  height: 306px;
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+  margin: 116px auto;
+}
+
+.title{
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+  width: 856px;
+  margin: 0px auto;
+}
+
+.insights{
+  display: flex;
+  gap: 158px;
+  width: 856px;
+  height: 121px;
+}
+
+.insight{
+  width: 180px;
+  height: 121px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bold-insight{
+  font-size: 80px;
+  font-weight: bold;
+  color: #4E47FF;
+  margin: 0px auto;
+}
+
+.sub-insight{
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0px auto;
+}
 
 
 /* button */
-.btn{
+.btn-primary{
   background-color: #4E47FF;
   border: none;
   border-radius: 10px;
