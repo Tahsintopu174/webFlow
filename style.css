@@ -282,7 +282,44 @@ nav{
 
 
 
+/* Highlight section */
 
+.highlight{
+  height: 696.77px;
+  width: 1140px;
+  background-color: #FFFFFF;
+  border-radius: 14px;
+  margin: 137px auto;
+}
 
+.highlight-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 71px 150px;
+}
 
+.highlight-title{
+  font-size: 50px;
+  color: #000000;
+}
+
+.highlight-description{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.highlight-btn{
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.highlight-image{
+  width: 840px;
+  height: 364.77px;
+  border-radius: 48px;
+}
 
